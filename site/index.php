@@ -62,7 +62,6 @@
 					<img src="img/logo.png" alt="logo"/>
 				</div>
 				<div class="log <?php echo $class_log; ?>">
-					<!--<p class="text-center"><i class="fa <?php echo $classIcon; ?>" aria-hidden="true"></i> Identifiez-vous</p>-->
 					<form class="text-center">
 						<button type="submit" name="action" value="logout" class="no-style" <?php echo $disabled; ?> title="<?php echo $infobulle; ?>"><i class="fa <?php echo $classIcon; ?>" aria-hidden="true"></i> <span class="hidden-xs"><?php echo $bouton_log; ?></span></button>
 					</form>	
