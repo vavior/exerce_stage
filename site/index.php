@@ -36,6 +36,7 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
