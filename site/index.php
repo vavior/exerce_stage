@@ -3,10 +3,10 @@
 	$pw = (isset($_POST["pw"]))?htmlentities($_POST['pw'], ENT_QUOTES, 'UTF-8'):false;
 	$action = (isset($_POST["action"]))?htmlentities($_POST['action'], ENT_QUOTES, 'UTF-8'):false;
 
-	var_dump($action);
-	var_dump($pw);
+	$emailOK="grumpycat@email.com";
+	$pwOK="unicorn";
 
-	if ($email == "vavior88@gmail.com" && $pw=="st") {
+	if ($email == $emailOK && $pw==$pwOK) {
 		$classIcon="fa-lock";
 		$bouton_log=$email;
 		$class_log="btn_login";
@@ -76,7 +76,7 @@
 				</div>
 
 <?php 
-	if ($action=="login" && ($email != "vavior88@gmail.com" || $pw!="st")) {
+	if ($action=="login" && ($email != $emailOK || $pw!=$pwOK)) {
 ?>
 
 				<div class="row">
@@ -91,7 +91,7 @@
 
 				<div class="row">
 <?php 
-	if ($email != "vavior88@gmail.com" || $pw!="st" || ($email != "vavior88@gmail.com" && $pw!="st")) {
+	if ($email != $emailOK || $pw!=$pwOK) {
 ?>
 
 					<form id="form_log" class="col-xs-offset-0 col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-6 col-lg-offset-3" action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="POST">
