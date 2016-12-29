@@ -5,6 +5,7 @@ body {
 .container {
 	border-radius: 5px;
 	overflow: hidden;
+	margin-top:20px;
 }
 
 .white {
@@ -140,7 +141,7 @@ footer a {
 }
 
 .height_ligne {
-	height:20px;
+	height:15px;
 	position: absolute;
 }
 
@@ -161,7 +162,7 @@ footer .flex-child:last-child {
 
 .no-mix {
 	width:10px;
-	height: 20px;
+	height: 15px;
 	-webkit-flex-grow: 1;
 	flex-grow:1;
 	-webkit-flex-shrink:1;
@@ -171,12 +172,13 @@ footer .flex-child:last-child {
 .mix {
 	position: relative;
 	left:-13px;
+	border-radius: 25px;
 }
 
 .bg_mix {
 	display: inline-block;
 	width:50%;
-	height:20px;
+	height:15px;
 	position: absolute;
 	top:0px;
 }
@@ -222,31 +224,26 @@ footer .flex-child:last-child {
 /*mélanges couleurs*/
 .orange_yellow {
 	background-color: #ffd800;
-	border-radius: 25px;
 	width:26px;
 }
 
 .yellow_light_green {
 	background-color: #cae061;
-	border-radius: 25px;
 	width:60px;
 } 
 
 .light_green_turquoise {
 	background-color: #61e06d;
-	border-radius: 25px;
 	width:65px;
 }
 
 .turquoise_green {
 	background-color: #00d084;
-	border-radius: 25px;
 	width:18px;
 }
 
 .green_turquoise {
 	background-color: #00b98f;
-	border-radius: 25px;
 	width:60px;
 }
 
